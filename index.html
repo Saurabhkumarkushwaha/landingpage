@@ -1,1 +1,101 @@
-no
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Landing Page</h1>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#about">about us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome To Our Landing Page</h2>
+            <p>Discover All features and learn more about Our Organisation.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>Incorporated association</h3>
+                <p>This is an incorporated association,run by the help of government.we are not here to earn profit, our moto is to help farmers
+                    by giving them knowledge of farming techniques in rural areas.
+                </p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>Indian Farmers</h3>
+                <p>indian farmers in rural areas are still practising old techniques to cultivate their land.our organisation search for these types
+                    of farmers,and give them knoledge of modern techniques of farming,introduce them with new technological tools,modern seeds,and 
+                    modern pesticides and insecticides.we are here to aware farmers and help them.
+                </p>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    
+
+    
+  <section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+      <span>Ask me Questions</span>
+      <h2>Contact Me</h2>
+    </div>
+
+    <form class="scroll-bottom" onsubmit="sendEmail(); reset(); return flase;">
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="email" id="email" placeholder="Your Email" />
+      <input type="text" id="address" placeholder="Your Address" />
+      <input type="number" id="mobile" placeholder="Mobile Number" />
+      <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <div class="btn-box formBtn">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Learn about Organisaton. A Organisation, abbreviated as co., is a legal entity representing an association of
+            people, whether natural, legal or a mixture of both, with a specific objective. organisation members share a
+            common purpose and unite to achieve specific, declared goals. organisation take various forms, such as:
+
+        <p>voluntary associations</p>
+        <p>business entities</p>
+        <p>financial entities and banks</p>
+        <p>programs or educational institutions</p>
+        </p>
+    </div>
+</section>
+
+
+    <footer>
+            <p>Copyright &copy; saurabh kushwaha. All rights reserved.</p>
+    </footer>
+
+    <script src="index.css"></script>
+</body>
+
+</html>
